@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahak Sharma's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mahak Sharma</h1>
+        <p>Second-year Computer Science Student | Aspiring Developer | Emerging Writer</p>
+        <nav>
+            <button onclick="scrollToSection('about')">About Me</button>
+            <button onclick="scrollToSection('writing')">Creative Writing</button>
+            <button onclick="scrollToSection('hobbies')">Hobbies</button>
+            <button onclick="scrollToSection('experience')">Academic Background</button>
+            <button onclick="scrollToSection('skills')">My Skills</button>
+            <button onclick="scrollToSection('goals')">Career Aspirations</button>
+            <button onclick="scrollToSection('contact')">Get in Touch</button>
+        </nav>
+    </header>
+
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mahak Sharma, currently pursuing my second year in Computer Science at Poornima University. I have a deep interest in technology, coding, and expanding my knowledge in the field. I enjoy working with Python, dabbling in web development, and continually challenging myself to grow as a developer.</p>
+    </section>
+
+    <section id="writing" class="content-section">
+        <h2>Creative Writing</h2>
+        <p>When I step away from programming, I indulge in my passion for writing. I’m currently drafting my first novel, which I plan to publish soon. Writing offers me a creative outlet to express my thoughts and explore new narratives, whether through prose or poetry.</p>
+    </section>
+
+    <section id="hobbies" class="content-section">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li><span>📚</span> **Reading**: Immersing myself in novels is one of my favorite pastimes, as it allows me to explore various ideas and cultures.</li>
+            <li><span>✈️</span> **Traveling**: I love discovering new places and gaining new perspectives, which often sparks my creativity.</li>
+            <li><span>🌱</span> **Gardening**: Caring for plants and being close to nature is a source of tranquility for me.</li>
+        </ul>
+    </section>
+
+    <section id="experience" class="content-section">
+        <h2>Academic Background</h2>
+        <p>Originally from Jaipur, I completed my high school education here. Though I didn't clear the JEE Mains cut-off, the experience motivated me to pursue my passion for computer science, and I’m excited to deepen my understanding in this field.</p>
+    </section>
+
+    <section id="skills" class="content-section">
+        <h2>My Skills</h2>
+        <ul>
+            <li><span>💻</span> **Programming Languages**: Python (beginner), C (beginner)</li>
+            <li><span>🌐</span> **Web Development**: HTML, CSS (beginner)</li>
+            <li><span>📊</span> **Data Structures and Algorithms**: Basic understanding of core concepts and problem-solving techniques</li>
+            <li><span>🔧</span> **Operating Systems**: Basic knowledge of OS concepts and management</li>
+        </ul>
+    </section>
+
+    <section id="goals" class="content-section">
+        <h2>Career Aspirations</h2>
+        <ul>
+            <li>Master advanced Python and create real-world software applications</li>
+            <li>Learn JavaScript to build interactive websites and web applications</li>
+            <li>Complete my novel and continue to grow as a writer</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Get in Touch</h2>
+        <p>If you’d like to connect with me, feel free to reach out via:</p>
+        <ul>
+            <li><a href="mailto:2023csmahak16315@poornima.edu.in">Email: 2023csmahak16315@poornima.edu.in</a></li>
+            <li><a href="https://www.linkedin.com/in/mahaksharma/">LinkedIn: Mahak Sharma</a></li>
+            <li><a href="https://github.com/mahaksharma">GitHub: Mahak Sharma</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mahak Sharma. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+
+      
